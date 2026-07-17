@@ -1,9 +1,13 @@
+require('dotenv').config();
+const WebSocket = require('ws');
+const http = require('http');
+const axios = require('axios');
 const WebSocket = require('ws');
 const http = require('http');
 const axios = require('axios');
 
 // Configuration
-const PORT = process.env.WS_PORT || 3001;
+const PORT = process.env.PORT || 3001;
 const API_KEY = process.env.WS_API_KEY || 'votre-cle-api-websocket-2024';
 const LARAVEL_API_URL = process.env.LARAVEL_API_URL || 'http://127.0.0.1:9000/api';
 
