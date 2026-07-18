@@ -2,9 +2,6 @@ require('dotenv').config();
 const WebSocket = require('ws');
 const http = require('http');
 const axios = require('axios');
-const WebSocket = require('ws');
-const http = require('http');
-const axios = require('axios');
 
 // Configuration
 const PORT = process.env.PORT || 3001;
